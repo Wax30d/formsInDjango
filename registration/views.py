@@ -9,4 +9,4 @@ def regForm(request):
         html = 'we have received this form again'
     else:
         html = 'welcome for first time'
-    return render(request, 'signup.html', {'html': html, 'form': form})
+    return render(request, 'registration/signup.html', {'html': html, 'form': form})
